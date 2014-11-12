@@ -1,0 +1,62 @@
+cache/*
+log/*
+web/uploads/*
+config/databases.yml
+config/propel.ini
+data/sql/*
+lib/filter/doctrine/base/Base*
+lib/filter/doctrine/*Plugin/base/Base*
+lib/form/doctrine/base/Base*
+lib/form/doctrine/*Plugin/base/Base*
+lib/model/doctrine/base/Base*
+lib/model/doctrine/*Plugin/base/Base*
+lib/model/om/*
+lib/model/map/*
+web/*Plugin/*
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
